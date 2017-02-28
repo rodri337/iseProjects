@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/rjuan/Desktop/ISEProjects/lab5/fullAdderNand/FA.xst" -ofn "C:/Users/rjuan/Desktop/ISEProjects/lab5/fullAdderNand/FA.syr" 
+sch2sym -intstyle ise -family spartan3e -refsym FA C:/Users/rjuan/OneDrive/Documents/OperatingSystems/exp3-20170220T222837Z/exp3/FA.sch C:/Users/rjuan/Desktop/ISEProjects/lab5/fullAdderNand/FA.sym 

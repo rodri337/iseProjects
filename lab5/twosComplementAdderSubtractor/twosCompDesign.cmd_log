@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/rjuan/Desktop/ISEProjects/lab5/twosComplementAdderSubtractor/twosCompDesign.xst" -ofn "C:/Users/rjuan/Desktop/ISEProjects/lab5/twosComplementAdderSubtractor/twosCompDesign.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc twosCompDesign.ucf -p xc3s100e-cp132-4 twosCompDesign.ngc twosCompDesign.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o twosCompDesign_map.ncd twosCompDesign.ngd twosCompDesign.pcf 
+par -w -intstyle ise -ol high -t 1 twosCompDesign_map.ncd twosCompDesign.ncd twosCompDesign.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml twosCompDesign.twx twosCompDesign.ncd -o twosCompDesign.twr twosCompDesign.pcf -ucf twosCompDesign.ucf 
+bitgen -intstyle ise -f twosCompDesign.ut twosCompDesign.ncd 

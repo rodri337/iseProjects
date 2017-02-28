@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/rjuan/Desktop/ISEProjects/lab5/carryAhead/cla.xst" -ofn "C:/Users/rjuan/Desktop/ISEProjects/lab5/carryAhead/cla.syr" 

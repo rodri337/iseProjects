@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="twosComplementAdderSubtractor.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="FA.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="FA.vhf"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="twosCompDesign.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="twosCompDesign.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="twosCompDesign.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="twosCompDesign.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="twosCompDesign.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="twosCompDesign.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="twosCompDesign.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="twosCompDesign.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="twosCompDesign.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="twosCompDesign.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="twosCompDesign.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="twosCompDesign.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="twosCompDesign.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="twosCompDesign.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="twosCompDesign.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="twosCompDesign.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="twosCompDesign.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="twosCompDesign.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="twosCompDesign.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="twosCompDesign.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="twosCompDesign.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="twosCompDesign.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="twosCompDesign_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="twosCompDesign_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="twosCompDesign_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="twosCompDesign_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="twosCompDesign_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="twosCompDesign_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="twosCompDesign_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="twosCompDesign_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="twosCompDesign_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="twosCompDesign_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="twosCompDesign_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="twosCompDesign_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="twosCompDesign_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="twosCompDesign_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="twosCompDesign_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="twoscompdesign.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="twoscompdesign.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="twoscompdesign.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1487656152" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1487656151">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656155" xil_pn:in_ck="1383412202438723" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3372284889322022402" xil_pn:start_ts="1487656152">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FA.vhf"/>
+      <outfile xil_pn:name="twosCompDesign.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656155" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5266008243833393518" xil_pn:start_ts="1487656155">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656155" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1487656155">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656155" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1527228895312935036" xil_pn:start_ts="1487656155">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656155" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1487656155">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656155" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-677653304693077448" xil_pn:start_ts="1487656155">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656178" xil_pn:in_ck="1535270945310741633" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="3220497458309022872" xil_pn:start_ts="1487656155">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="twosCompDesign.jhd"/>
+      <outfile xil_pn:name="twosCompDesign.lso"/>
+      <outfile xil_pn:name="twosCompDesign.ngc"/>
+      <outfile xil_pn:name="twosCompDesign.ngr"/>
+      <outfile xil_pn:name="twosCompDesign.prj"/>
+      <outfile xil_pn:name="twosCompDesign.stx"/>
+      <outfile xil_pn:name="twosCompDesign.syr"/>
+      <outfile xil_pn:name="twosCompDesign.xst"/>
+      <outfile xil_pn:name="twosCompDesign_vhdl.prj"/>
+      <outfile xil_pn:name="twosCompDesign_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656608" xil_pn:in_ck="101920869301176674" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4161241741246032152" xil_pn:start_ts="1487656608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656629" xil_pn:in_ck="-6427489761295817602" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1964247978752138309" xil_pn:start_ts="1487656608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="twosCompDesign.bld"/>
+      <outfile xil_pn:name="twosCompDesign.ngd"/>
+      <outfile xil_pn:name="twosCompDesign_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656647" xil_pn:in_ck="-3246713790106236225" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1487656629">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="twosCompDesign.pcf"/>
+      <outfile xil_pn:name="twosCompDesign_map.map"/>
+      <outfile xil_pn:name="twosCompDesign_map.mrp"/>
+      <outfile xil_pn:name="twosCompDesign_map.ncd"/>
+      <outfile xil_pn:name="twosCompDesign_map.ngm"/>
+      <outfile xil_pn:name="twosCompDesign_map.xrpt"/>
+      <outfile xil_pn:name="twosCompDesign_summary.xml"/>
+      <outfile xil_pn:name="twosCompDesign_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656668" xil_pn:in_ck="3473913637837312152" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4078461964484670437" xil_pn:start_ts="1487656647">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="twosCompDesign.ncd"/>
+      <outfile xil_pn:name="twosCompDesign.pad"/>
+      <outfile xil_pn:name="twosCompDesign.par"/>
+      <outfile xil_pn:name="twosCompDesign.ptwx"/>
+      <outfile xil_pn:name="twosCompDesign.unroutes"/>
+      <outfile xil_pn:name="twosCompDesign.xpi"/>
+      <outfile xil_pn:name="twosCompDesign_pad.csv"/>
+      <outfile xil_pn:name="twosCompDesign_pad.txt"/>
+      <outfile xil_pn:name="twosCompDesign_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656684" xil_pn:in_ck="101920869301169049" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1487656668">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="twosCompDesign.ut"/>
+      <outfile xil_pn:name="twoscompdesign.bgn"/>
+      <outfile xil_pn:name="twoscompdesign.bit"/>
+      <outfile xil_pn:name="twoscompdesign.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656689" xil_pn:in_ck="8954046824746733987" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="2182533642587968765" xil_pn:start_ts="1487656687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1487656668" xil_pn:in_ck="1165971708188709179" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1487656662">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="twosCompDesign.twr"/>
+      <outfile xil_pn:name="twosCompDesign.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

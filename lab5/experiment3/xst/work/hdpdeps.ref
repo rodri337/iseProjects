@@ -1,0 +1,17 @@
+V3 13
+FL C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment3/FA.vhf 2017/02/21.00:08:43 P.20131013
+EN work/FA 1487704249 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment3/FA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA/BEHAVIORAL 1487704250 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment3/FA.vhf EN work/FA 1487704249 \
+      CP XOR2 CP NAND2
+FL C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment3/twosCompDesign.vhf 2017/02/21.00:12:26 P.20131013
+EN work/twosCompDesign 1487704251 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment3/twosCompDesign.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/twosCompDesign/BEHAVIORAL 1487704252 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment3/twosCompDesign.vhf \
+      EN work/twosCompDesign 1487704251 CP XOR2 CP FA CP AND2 CP INV CP GND

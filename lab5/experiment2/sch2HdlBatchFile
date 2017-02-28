@@ -1,0 +1,2 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment2/ex2.vhf,-w,C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment2/ex2.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/rjuan/Desktop/ISEProjects/lab5/experiment2/FA.vhf,-w,C:/Users/rjuan/Desktop/ISEProjects/lab5/fullAdderNand/FA.sch

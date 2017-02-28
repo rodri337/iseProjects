@@ -1,0 +1,17 @@
+V3 10
+FL C:/Users/rjuan/Desktop/ISEProjects/lab5/twosComplementAdderSubtractor/FA.vhf 2017/02/20.21:49:13 P.20131013
+EN work/FA 1487656161 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/twosComplementAdderSubtractor/FA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA/BEHAVIORAL 1487656162 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/twosComplementAdderSubtractor/FA.vhf \
+      EN work/FA 1487656161 CP XOR2 CP NAND2
+FL C:/Users/rjuan/Desktop/ISEProjects/lab5/twosComplementAdderSubtractor/twosCompDesign.vhf 2017/02/20.21:49:13 P.20131013
+EN work/twosCompDesign 1487656163 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/twosComplementAdderSubtractor/twosCompDesign.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/twosCompDesign/BEHAVIORAL 1487656164 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/twosComplementAdderSubtractor/twosCompDesign.vhf \
+      EN work/twosCompDesign 1487656163 CP XOR2 CP FA

@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml twosCompDesign.twx twosCompDesign.ncd -o
+twosCompDesign.twr twosCompDesign.pcf -ucf twosCompDesign.ucf
+
+Design file:              twosCompDesign.ncd
+Physical constraint file: twosCompDesign.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |cout           |   17.241|
+A<0>           |fSout0         |    7.016|
+A<0>           |fSout1         |   16.630|
+A<0>           |fSout2         |   16.798|
+A<0>           |fSout3         |   17.595|
+A<0>           |fcout          |   13.833|
+A<1>           |cout           |   16.705|
+A<1>           |fSout1         |   16.094|
+A<1>           |fSout2         |   16.262|
+A<1>           |fSout3         |   17.059|
+A<1>           |fcout          |   13.297|
+A<2>           |cout           |   15.072|
+A<2>           |fSout1         |   14.461|
+A<2>           |fSout2         |   14.629|
+A<2>           |fSout3         |   15.426|
+A<2>           |fcout          |   11.664|
+A<3>           |cout           |   14.413|
+A<3>           |fSout1         |   13.802|
+A<3>           |fSout2         |   13.970|
+A<3>           |fSout3         |   14.767|
+A<3>           |fcout          |   11.005|
+B<0>           |cout           |   17.470|
+B<0>           |fSout0         |    7.238|
+B<0>           |fSout1         |   16.859|
+B<0>           |fSout2         |   17.027|
+B<0>           |fSout3         |   17.824|
+B<0>           |fcout          |   14.062|
+B<1>           |cout           |   17.002|
+B<1>           |fSout1         |   16.391|
+B<1>           |fSout2         |   16.559|
+B<1>           |fSout3         |   17.356|
+B<1>           |fcout          |   13.594|
+B<2>           |cout           |   16.555|
+B<2>           |fSout1         |   15.944|
+B<2>           |fSout2         |   16.112|
+B<2>           |fSout3         |   16.909|
+B<2>           |fcout          |   13.147|
+B<3>           |cout           |   14.426|
+B<3>           |fSout1         |   13.815|
+B<3>           |fSout2         |   13.983|
+B<3>           |fSout3         |   14.780|
+B<3>           |fcout          |   11.018|
+Subtract       |cout           |   17.640|
+Subtract       |fSout1         |   17.029|
+Subtract       |fSout2         |   17.197|
+Subtract       |fSout3         |   17.994|
+Subtract       |fcout          |   14.232|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Feb 21 11:33:55 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 162 MB
+
+
+

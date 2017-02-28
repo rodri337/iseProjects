@@ -1,0 +1,17 @@
+V3 13
+FL C:/Users/rjuan/Desktop/ISEProjects/lab5/carryAhead/cla.vhf 2017/02/22.20:11:52 P.20131013
+EN work/cla 1487823129 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/carryAhead/cla.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/cla/BEHAVIORAL 1487823130 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/carryAhead/cla.vhf EN work/cla 1487823129 \
+      CP FA CP XOR2 CP AND2 CP INV CP GND
+FL C:/Users/rjuan/Desktop/ISEProjects/lab5/carryAhead/FA.vhf 2017/02/22.20:11:52 P.20131013
+EN work/FA 1487823122 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/carryAhead/FA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA/BEHAVIORAL 1487823128 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab5/carryAhead/FA.vhf EN work/FA 1487823122 \
+      CP XOR2 CP NAND2
