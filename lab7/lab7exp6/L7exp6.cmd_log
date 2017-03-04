@@ -1,0 +1,80 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl L7exp6_drc.vhf -w D:/lab7exp6/L7exp6.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl L7exp6_drc.vhf -w D:/lab7exp6/L7exp6.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl L7exp6_drc.vhf -w D:/lab7exp6/L7exp6.sch 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 
+xst -intstyle ise -ifn "D:/lab7exp6/L7exp6.xst" -ofn "D:/lab7exp6/L7exp6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp6.ucf -p xc3s100e-cp132-4 L7exp6.ngc L7exp6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp6_map.ncd L7exp6.ngd L7exp6.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp6_map.ncd L7exp6.ncd L7exp6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp6.twx L7exp6.ncd -o L7exp6.twr L7exp6.pcf -ucf L7exp6.ucf 
+bitgen -intstyle ise -f L7exp6.ut L7exp6.ncd 

@@ -1,0 +1,41 @@
+V3 26
+FL C:/Users/rjuan/Desktop/ISEProjects/bin2BCD3en.vhd 2017/02/28.09:57:31 P.20131013
+EN work/bin2BCD3en 1488432906 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/bin2BCD3en.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1488432907 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/bin2BCD3en.vhd EN work/bin2BCD3en 1488432906
+FL C:/Users/rjuan/Desktop/ISEProjects/DCM_50M.vhd 2017/02/28.09:58:09 P.20131013
+EN work/DCM_50M 1488432902 FL C:/Users/rjuan/Desktop/ISEProjects/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1488432903 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/DCM_50M.vhd EN work/DCM_50M 1488432902
+FL C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/exp4.vhf 2017/03/01.21:34:57 P.20131013
+EN work/exp4 1488432912 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/exp4.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/exp4/BEHAVIORAL 1488432913 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/exp4.vhf \
+      EN work/exp4 1488432912 CP DCM_50M CP sel_strobeB CP bin2BCD3en CP mux4SSD \
+      CP SSD_1dig CP PULLDOWN CP VCC
+FL C:/Users/rjuan/Desktop/ISEProjects/mux4SSD.vhd 2017/02/28.09:55:28 P.20131013
+EN work/mux4SSD 1488432908 FL C:/Users/rjuan/Desktop/ISEProjects/mux4SSD.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux4SSD/Behavioral 1488432909 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/mux4SSD.vhd EN work/mux4SSD 1488432908
+FL C:/Users/rjuan/Desktop/ISEProjects/sel_strobeB.vhd 2017/02/28.09:59:28 P.20131013
+EN work/sel_strobeB 1488432904 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/sel_strobeB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sel_strobeB/Behavioral 1488432905 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/sel_strobeB.vhd EN work/sel_strobeB 1488432904
+FL C:/Users/rjuan/Desktop/ISEProjects/SSD_1dig.vhd 2017/02/27.19:53:45 P.20131013
+EN work/SSD_1dig 1488432910 FL C:/Users/rjuan/Desktop/ISEProjects/SSD_1dig.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSD_1dig/Behavioral 1488432911 \
+      FL C:/Users/rjuan/Desktop/ISEProjects/SSD_1dig.vhd EN work/SSD_1dig 1488432910

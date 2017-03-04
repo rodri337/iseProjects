@@ -1,0 +1,7 @@
+vhdl work "shift_reg.vhf"
+vhdl work "C:/Users/TinyDancer/Downloads/SSD_1dig.vhd"
+vhdl work "C:/Users/TinyDancer/Downloads/sel_strobeB.vhd"
+vhdl work "C:/Users/TinyDancer/Downloads/mux4SSD.vhd"
+vhdl work "C:/Users/TinyDancer/Downloads/DCM_50M.vhd"
+vhdl work "C:/Users/TinyDancer/Downloads/bin2BCD3en.vhd"
+vhdl work "L7exp6.vhf"

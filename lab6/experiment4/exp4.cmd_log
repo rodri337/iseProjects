@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/exp4.xst" -ofn "C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/exp4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc exp4.ucf -p xc3s100e-cp132-4 exp4.ngc exp4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o exp4_map.ncd exp4.ngd exp4.pcf 
+par -w -intstyle ise -ol high -t 1 exp4_map.ncd exp4.ncd exp4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml exp4.twx exp4.ncd -o exp4.twr exp4.pcf -ucf exp4.ucf 
+bitgen -intstyle ise -f exp4.ut exp4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc exp4.ucf -p xc3s100e-cp132-4 exp4.ngc exp4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o exp4_map.ncd exp4.ngd exp4.pcf 
+par -w -intstyle ise -ol high -t 1 exp4_map.ncd exp4.ncd exp4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml exp4.twx exp4.ncd -o exp4.twr exp4.pcf -ucf exp4.ucf 
+bitgen -intstyle ise -f exp4.ut exp4.ncd 

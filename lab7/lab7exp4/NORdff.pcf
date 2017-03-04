@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 10 15:34:50 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Qout" LOCATE = SITE "M11" LEVEL 1;
+COMP "nQout" LOCATE = SITE "M5" LEVEL 1;
+COMP "CLKin" LOCATE = SITE "P11" LEVEL 1;
+COMP "Din" LOCATE = SITE "L3" LEVEL 1;
+SCHEMATIC END;
+

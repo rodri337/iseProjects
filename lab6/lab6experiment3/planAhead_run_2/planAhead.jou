@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Feb 28 11:00:46 2017
+# Process ID: 4388
+# Log file: E:/lab6experiment3/planAhead_run_2/planAhead.log
+# Journal file: E:/lab6experiment3/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/lab6experiment3/pa.fromNetlist.tcl
+startgroup
+set_property package_pin B8 [get_ports CLKin]
+endgroup
+save_constraints

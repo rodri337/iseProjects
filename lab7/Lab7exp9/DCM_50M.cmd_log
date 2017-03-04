@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/TinyDancer/Downloads/DCM_50M.vhd -prj Lab7exp9 -o DCM_50M.spl -module DCM_50M -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w DCM_50M.spl D:/Lab7exp9/DCM_50M.sym 

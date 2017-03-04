@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl onebitmux_drc.vhf -w D:/Lab7exp9/onebitmux.sch 
+sch2sym -intstyle ise -family spartan3e -refsym onebitmux D:/Lab7exp9/onebitmux.sch D:/Lab7exp9/onebitmux.sym 

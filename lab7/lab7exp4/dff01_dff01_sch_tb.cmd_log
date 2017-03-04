@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/lab7exp4/dff01_dff01_sch_tb.xst" -ofn "D:/lab7exp4/dff01_dff01_sch_tb.syr" 
+xst -intstyle ise -ifn "D:/lab7exp4/dff01_dff01_sch_tb.xst" -ofn "D:/lab7exp4/dff01_dff01_sch_tb.syr" 
+xst -intstyle ise -ifn "D:/lab7exp4/dff01_dff01_sch_tb.xst" -ofn "D:/lab7exp4/dff01_dff01_sch_tb.syr" 
+xst -intstyle ise -ifn "D:/lab7exp4/dff01_dff01_sch_tb.xst" -ofn "D:/lab7exp4/dff01_dff01_sch_tb.syr" 

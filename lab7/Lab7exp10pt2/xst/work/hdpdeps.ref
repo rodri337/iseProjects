@@ -1,0 +1,19 @@
+V3 17
+FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd 2016/02/25.13:21:40 P.20131013
+EN work/DCM_50M 1457585779 FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_50M/Behavioral 1457585780 \
+      FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd EN work/DCM_50M 1457585779
+FL D:/Lab7exp10pt2/lab7exp10pt2.vhf 2016/03/09.20:56:16 P.20131013
+EN work/FJKPE_MXILINX_lab7exp10pt2 1457585781 FL D:/Lab7exp10pt2/lab7exp10pt2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKPE_MXILINX_lab7exp10pt2/BEHAVIORAL 1457585782 \
+      FL D:/Lab7exp10pt2/lab7exp10pt2.vhf EN work/FJKPE_MXILINX_lab7exp10pt2 1457585781 \
+      CP FDPE CP AND3B2 CP AND3B1 CP OR3 CP AND2B1
+EN work/lab7exp10pt2 1457585783 \
+      FL D:/Lab7exp10pt2/lab7exp10pt2.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/lab7exp10pt2/BEHAVIORAL 1457585784 \
+      FL D:/Lab7exp10pt2/lab7exp10pt2.vhf EN work/lab7exp10pt2 1457585783 \
+      CP FJKPE_MXILINX_lab7exp10pt2 CP PULLUP CP DCM_50M

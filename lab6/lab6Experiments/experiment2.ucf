@@ -1,0 +1,17 @@
+
+
+NET "hexD[3]" LOC = P11;
+NET "hexD[2]" LOC = L3;
+NET "hexD[1]" LOC = K3;
+NET "hexD[0]" LOC = B4;
+
+# PlanAhead Generated physical constraints 
+
+NET "XLXN_11[0]" LOC = L14;
+NET "XLXN_11[1]" LOC = H12;
+NET "XLXN_11[2]" LOC = N14;
+NET "XLXN_11[3]" LOC = N11;
+NET "XLXN_11[4]" LOC = P12;
+NET "XLXN_11[5]" LOC = L13;
+NET "XLXN_11[6]" LOC = M12;
+NET "XLXN_11[7]" LOC = N13;

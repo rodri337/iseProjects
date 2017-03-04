@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "D:/Lab7exp9/L7exp9final.xst" -ofn "D:/Lab7exp9/L7exp9final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+xst -intstyle ise -ifn "D:/Lab7exp9/L7exp9final.xst" -ofn "D:/Lab7exp9/L7exp9final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+xst -intstyle ise -ifn "D:/Lab7exp9/L7exp9final.xst" -ofn "D:/Lab7exp9/L7exp9final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp9final_map.ncd L7exp9final.ngd L7exp9final.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp9final_map.ncd L7exp9final.ncd L7exp9final.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp9final.twx L7exp9final.ncd -o L7exp9final.twr L7exp9final.pcf -ucf L7exp9final.ucf 
+bitgen -intstyle ise -f L7exp9final.ut L7exp9final.ncd 
+xst -intstyle ise -ifn "D:/Lab7exp9/L7exp9final.xst" -ofn "D:/Lab7exp9/L7exp9final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp9final_map.ncd L7exp9final.ngd L7exp9final.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp9final_map.ncd L7exp9final.ncd L7exp9final.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp9final.twx L7exp9final.ncd -o L7exp9final.twr L7exp9final.pcf -ucf L7exp9final.ucf 
+bitgen -intstyle ise -f L7exp9final.ut L7exp9final.ncd 
+xst -intstyle ise -ifn "D:/Lab7exp9/L7exp9final.xst" -ofn "D:/Lab7exp9/L7exp9final.syr" 
+xst -intstyle ise -ifn "D:/Lab7exp9/L7exp9final.xst" -ofn "D:/Lab7exp9/L7exp9final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp9final_map.ncd L7exp9final.ngd L7exp9final.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp9final_map.ncd L7exp9final.ncd L7exp9final.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp9final.twx L7exp9final.ncd -o L7exp9final.twr L7exp9final.pcf -ucf L7exp9final.ucf 
+bitgen -intstyle ise -f L7exp9final.ut L7exp9final.ncd 
+xst -intstyle ise -ifn "D:/Lab7exp9/L7exp9final.xst" -ofn "D:/Lab7exp9/L7exp9final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp9final_map.ncd L7exp9final.ngd L7exp9final.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp9final_map.ncd L7exp9final.ncd L7exp9final.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp9final.twx L7exp9final.ncd -o L7exp9final.twr L7exp9final.pcf -ucf L7exp9final.ucf 
+bitgen -intstyle ise -f L7exp9final.ut L7exp9final.ncd 
+xst -intstyle ise -ifn "D:/Lab7exp9/L7exp9final.xst" -ofn "D:/Lab7exp9/L7exp9final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L7exp9final.ucf -p xc3s100e-cp132-4 L7exp9final.ngc L7exp9final.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o L7exp9final_map.ncd L7exp9final.ngd L7exp9final.pcf 
+par -w -intstyle ise -ol high -t 1 L7exp9final_map.ncd L7exp9final.ncd L7exp9final.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml L7exp9final.twx L7exp9final.ncd -o L7exp9final.twr L7exp9final.pcf -ucf L7exp9final.ucf 
+bitgen -intstyle ise -f L7exp9final.ut L7exp9final.ncd 

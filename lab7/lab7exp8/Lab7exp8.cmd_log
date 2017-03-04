@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "D:/lab7exp8/Lab7exp8.xst" -ofn "D:/lab7exp8/Lab7exp8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Lab7exp8.ngc Lab7exp8.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab7exp8_map.ncd Lab7exp8.ngd Lab7exp8.pcf 
+par -w -intstyle ise -ol high -t 1 Lab7exp8_map.ncd Lab7exp8.ncd Lab7exp8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab7exp8.twx Lab7exp8.ncd -o Lab7exp8.twr Lab7exp8.pcf 
+xst -intstyle ise -ifn "D:/lab7exp8/Lab7exp8.xst" -ofn "D:/lab7exp8/Lab7exp8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 Lab7exp8.ngc Lab7exp8.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab7exp8_map.ncd Lab7exp8.ngd Lab7exp8.pcf 
+par -w -intstyle ise -ol high -t 1 Lab7exp8_map.ncd Lab7exp8.ncd Lab7exp8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab7exp8.twx Lab7exp8.ncd -o Lab7exp8.twr Lab7exp8.pcf 
+bitgen -intstyle ise -f Lab7exp8.ut Lab7exp8.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab7exp8.ucf -p xc3s100e-cp132-4 Lab7exp8.ngc Lab7exp8.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab7exp8_map.ncd Lab7exp8.ngd Lab7exp8.pcf 
+par -w -intstyle ise -ol high -t 1 Lab7exp8_map.ncd Lab7exp8.ncd Lab7exp8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab7exp8.twx Lab7exp8.ncd -o Lab7exp8.twr Lab7exp8.pcf -ucf Lab7exp8.ucf 
+bitgen -intstyle ise -f Lab7exp8.ut Lab7exp8.ncd 

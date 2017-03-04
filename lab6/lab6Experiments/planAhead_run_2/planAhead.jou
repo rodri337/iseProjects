@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Feb 28 09:36:23 2017
+# Process ID: 8184
+# Log file: C:/Users/rjuan/Desktop/ISEProjects/lab6/lab6Experiments/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/rjuan/Desktop/ISEProjects/lab6/lab6Experiments/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/rjuan/Desktop/ISEProjects/lab6/lab6Experiments/pa.fromNetlist.tcl
+startgroup
+set_property package_pin K14 [get_ports {XLXN_11[7]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {XLXN_11[7]}]]
+set_property package_pin "" [get_ports [list  {XLXN_11[6]}]]
+set_property package_pin "" [get_ports [list  {XLXN_11[7]}]]
+startgroup
+set_property package_pin K14 [get_ports {XLXN_11[7]}]
+endgroup
+set_property package_pin "" [get_ports [list  {XLXN_11[7]}]]
+startgroup
+set_property package_pin L14 [get_ports {XLXN_11[0]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {XLXN_11[1]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {XLXN_11[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {XLXN_11[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {XLXN_11[4]}]
+endgroup
+set_property package_pin "" [get_ports [list  {XLXN_11[6]}]]
+startgroup
+set_property package_pin L13 [get_ports {XLXN_11[5]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {XLXN_11[6]}]
+endgroup
+startgroup
+set_property package_pin N13 [get_ports {XLXN_11[7]}]
+endgroup
+save_constraints

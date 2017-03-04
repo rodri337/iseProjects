@@ -1,0 +1,13 @@
+[Inputs]
+rb_in
+=Ain[3:0]=
+=Bin[3:0]=
+=Cin[3:0]=
+=Din[3:0]=
+=sel[0:1]=
+=dp_in[3:0]=
+[Outputs]
+dp_out
+=ANout[3:0]=
+=Nout[3:0]=
+[BiDir]

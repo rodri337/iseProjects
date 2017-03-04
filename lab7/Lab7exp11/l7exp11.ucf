@@ -1,0 +1,27 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "anO[0]" LOC = K14;
+NET "anO[1]" LOC = M13;
+NET "anO[2]" LOC = J12;
+NET "anO[3]" LOC = F12;
+NET "CLK" LOC = B8;
+NET "M_A" LOC = A7;
+NET "sseg[7]" LOC = N13;
+NET "sseg[6]" LOC = L14;
+NET "sseg[5]" LOC = H12;
+NET "sseg[4]" LOC = N14;
+NET "sseg[3]" LOC = N11;
+NET "sseg[2]" LOC = P12;
+NET "sseg[1]" LOC = L13;
+NET "sseg[0]" LOC = M12;
+NET "rowIn[0]" LOC = P11;
+NET "rowIn[1]" LOC = L3;
+NET "rowIn[2]" LOC = K3;
+NET "rowIn[3]" LOC = B4;
+NET "colO[0]" LOC = G3;
+NET "colO[1]" LOC = F3;
+
+# PlanAhead Generated IO constraints 
+
+NET "colO[2]" IOSTANDARD = LVCMOS25;

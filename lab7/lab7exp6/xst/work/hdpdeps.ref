@@ -1,0 +1,48 @@
+V3 33
+FL C:/Users/TinyDancer/Downloads/bin2BCD3en.vhd 2016/02/25.14:21:37 P.20131013
+EN work/bin2BCD3en 1458069288 FL C:/Users/TinyDancer/Downloads/bin2BCD3en.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1458069289 \
+      FL C:/Users/TinyDancer/Downloads/bin2BCD3en.vhd EN work/bin2BCD3en 1458069288
+FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd 2016/02/25.14:21:40 P.20131013
+EN work/DCM_50M 1458069286 FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_50M/Behavioral 1458069287 \
+      FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd EN work/DCM_50M 1458069286
+FL C:/Users/TinyDancer/Downloads/mux4SSD.vhd 2016/02/25.14:21:43 P.20131013
+EN work/mux4SSD 1458069292 FL C:/Users/TinyDancer/Downloads/mux4SSD.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux4SSD/Behavioral 1458069293 \
+      FL C:/Users/TinyDancer/Downloads/mux4SSD.vhd EN work/mux4SSD 1458069292
+FL C:/Users/TinyDancer/Downloads/sel_strobeB.vhd 2016/02/25.14:21:45 P.20131013
+EN work/sel_strobeB 1458069290 FL C:/Users/TinyDancer/Downloads/sel_strobeB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sel_strobeB/Behavioral 1458069291 \
+      FL C:/Users/TinyDancer/Downloads/sel_strobeB.vhd EN work/sel_strobeB 1458069290
+FL C:/Users/TinyDancer/Downloads/SSD_1dig.vhd 2016/02/25.14:21:45 P.20131013
+EN work/SSD_1dig 1458069294 FL C:/Users/TinyDancer/Downloads/SSD_1dig.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSD_1dig/Behavioral 1458069295 \
+      FL C:/Users/TinyDancer/Downloads/SSD_1dig.vhd EN work/SSD_1dig 1458069294
+FL D:/lab7exp6/L7exp6.vhf 2016/03/15.12:14:42 P.20131013
+EN work/shift_reg_MUSER_L7exp6 1458069296 FL D:/lab7exp6/L7exp6.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/shift_reg_MUSER_L7exp6/BEHAVIORAL 1458069297 \
+      FL D:/lab7exp6/L7exp6.vhf EN work/shift_reg_MUSER_L7exp6 1458069296 CP FD
+EN work/L7exp6 1458069298 \
+      FL D:/lab7exp6/L7exp6.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/L7exp6/BEHAVIORAL 1458069299 \
+      FL D:/lab7exp6/L7exp6.vhf EN work/L7exp6 1458069298 \
+      CP shift_reg_MUSER_L7exp6 CP DCM_50M CP bin2BCD3en CP sel_strobeB CP mux4SSD \
+      CP SSD_1dig CP PULLDOWN CP VCC
+FL D:/lab7exp6/shift_reg.vhf 2016/03/15.00:50:52 P.20131013
+EN work/shift_reg 1458069300 FL D:/lab7exp6/shift_reg.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/shift_reg/BEHAVIORAL 1458069301 \
+      FL D:/lab7exp6/shift_reg.vhf EN work/shift_reg 1458069300 CP FD

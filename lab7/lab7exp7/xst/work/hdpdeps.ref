@@ -1,0 +1,13 @@
+V3 9
+FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd 2016/02/25.13:21:40 P.20131013
+EN work/DCM_50M 1457581556 FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_50M/Behavioral 1457581557 \
+      FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd EN work/DCM_50M 1457581556
+FL D:/lab7exp7/Ringshifter.vhf 2016/03/09.19:45:52 P.20131013
+EN work/Ringshifter 1457581558 FL D:/lab7exp7/Ringshifter.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Ringshifter/BEHAVIORAL 1457581559 \
+      FL D:/lab7exp7/Ringshifter.vhf EN work/Ringshifter 1457581558 CP FDRS \
+      CP DCM_50M

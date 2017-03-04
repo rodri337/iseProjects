@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl lab7exp9_drc.vhf -w D:/Lab7exp9/lab7exp9.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl lab7exp9_drc.vhf -w D:/Lab7exp9/lab7exp9.sch 
+sch2sym -intstyle ise -family spartan3e -w -refsym lab7exp9 D:/Lab7exp9/lab7exp9.sch D:/Lab7exp9/lab7exp9.sym 

@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "D:/Lab7exp10pt2/lab7exp10pt2.xst" -ofn "D:/Lab7exp10pt2/lab7exp10pt2.syr" 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl lab7exp10pt2_drc.vhf -w D:/Lab7exp10pt2/lab7exp10pt2.sch 
+xst -intstyle ise -ifn "D:/Lab7exp10pt2/lab7exp10pt2.xst" -ofn "D:/Lab7exp10pt2/lab7exp10pt2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7exp10pt2.ucf -p xc3s100e-cp132-4 lab7exp10pt2.ngc lab7exp10pt2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7exp10pt2_map.ncd lab7exp10pt2.ngd lab7exp10pt2.pcf 
+par -w -intstyle ise -ol high -t 1 lab7exp10pt2_map.ncd lab7exp10pt2.ncd lab7exp10pt2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lab7exp10pt2.twx lab7exp10pt2.ncd -o lab7exp10pt2.twr lab7exp10pt2.pcf -ucf lab7exp10pt2.ucf 
+bitgen -intstyle ise -f lab7exp10pt2.ut lab7exp10pt2.ncd 
+xst -intstyle ise -ifn "D:/Lab7exp10pt2/lab7exp10pt2.xst" -ofn "D:/Lab7exp10pt2/lab7exp10pt2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7exp10pt2.ucf -p xc3s100e-cp132-4 lab7exp10pt2.ngc lab7exp10pt2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7exp10pt2_map.ncd lab7exp10pt2.ngd lab7exp10pt2.pcf 
+par -w -intstyle ise -ol high -t 1 lab7exp10pt2_map.ncd lab7exp10pt2.ncd lab7exp10pt2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lab7exp10pt2.twx lab7exp10pt2.ncd -o lab7exp10pt2.twr lab7exp10pt2.pcf -ucf lab7exp10pt2.ucf 
+bitgen -intstyle ise -f lab7exp10pt2.ut lab7exp10pt2.ncd 

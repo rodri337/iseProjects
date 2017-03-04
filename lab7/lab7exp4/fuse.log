@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/lab7exp4/dff01_dff01_sch_tb_isim_beh.exe -prj D:/lab7exp4/dff01_dff01_sch_tb_beh.prj work.dff01_dff01_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/TinyDancer/Downloads/dff01TB.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/TinyDancer/Downloads/dff01TB.vhd" Line 26: <dff01> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/TinyDancer/Downloads/dff01TB.vhd" Line 26. Instance dff01 is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture behavioral of entity dff01_dff01_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable D:/lab7exp4/dff01_dff01_sch_tb_isim_beh.exe
+Fuse Memory Usage: 48540 KB
+Fuse CPU Usage: 593 ms

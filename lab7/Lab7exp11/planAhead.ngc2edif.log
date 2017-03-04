@@ -1,0 +1,20 @@
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design l7exp11.ngc ...
+WARNING:NetListWriters:298 - No output is written to l7exp11.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   XLXI_2/XLXI_11/Mcompar_cnt1_cmp_gt0000_lut<13 : 0> on block l7exp11 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_6/Mcompar_cnt10k_cmp_gt0000_lut<11
+   : 0> on block l7exp11 is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_6/Mcompar_cnt1k_cmp_gt0000_lut<13 :
+   0> on block l7exp11 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file l7exp11.edif ...
+ngc2edif: Total memory usage is 74388 kilobytes
+

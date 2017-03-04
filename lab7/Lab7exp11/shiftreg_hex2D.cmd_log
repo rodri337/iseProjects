@@ -1,0 +1,15 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl shiftreg_hex2D_drc.vhf -w D:/Lab7exp11/shiftreg_hex2D.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl shiftreg_hex2D_drc.vhf -w D:/Lab7exp11/shiftreg_hex2D.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl shiftreg_hex2D_drc.vhf -w D:/Lab7exp11/shiftreg_hex2D.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl shiftreg_hex2D_drc.vhf -w D:/Lab7exp11/shiftreg_hex2D.sch 
+sch2sym -intstyle ise -family spartan3e -refsym shiftreg_hex2D D:/Lab7exp11/shiftreg_hex2D.sch D:/Lab7exp11/shiftreg_hex2D.sym 
+vhdtdtfi -lib work C:/Users/TinyDancer/Downloads/shiftreg_hex2D.vhd -prj Lab7exp11 -o shiftreg_hex2D.spl -module shiftreg_hex2D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e shiftreg_hex2D.spl D:/Lab7exp11/shiftreg_hex2D.sym 
+vhdtdtfi -lib work C:/Users/TinyDancer/Downloads/shiftreg_hex2D.vhd -prj Lab7exp11 -o shiftreg_hex2D.spl -module shiftreg_hex2D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e shiftreg_hex2D.spl D:/Lab7exp11/shiftreg_hex2D.sym 
+vhdtdtfi -lib work C:/Users/TinyDancer/Downloads/shiftreg_hex2D.vhd -prj Lab7exp11 -o shiftreg_hex2D.spl -module shiftreg_hex2D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e shiftreg_hex2D.spl D:/Lab7exp11/shiftreg_hex2D.sym 
+vhdtdtfi -lib work C:/Users/TinyDancer/Downloads/shiftreg_hex2D.vhd -prj Lab7exp11 -o shiftreg_hex2D.spl -module shiftreg_hex2D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e shiftreg_hex2D.spl D:/Lab7exp11/shiftreg_hex2D.sym 
+vhdtdtfi -lib work C:/Users/TinyDancer/Downloads/shiftreg_hex2D.vhd -prj Lab7exp11 -o shiftreg_hex2D.spl -module shiftreg_hex2D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e shiftreg_hex2D.spl D:/Lab7exp11/shiftreg_hex2D.sym 

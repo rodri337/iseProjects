@@ -1,0 +1,12 @@
+EN dcm_50m NULL C:/Users/rjuan/Desktop/ISEProjects/DCM_50M.vhd sub00/vhpl00 1488432902
+EN exp4 NULL C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/exp4.vhf sub00/vhpl10 1488432912
+EN sel_strobeb NULL C:/Users/rjuan/Desktop/ISEProjects/sel_strobeB.vhd sub00/vhpl02 1488432904
+EN ssd_1dig NULL C:/Users/rjuan/Desktop/ISEProjects/SSD_1dig.vhd sub00/vhpl08 1488432910
+AR exp4 behavioral C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/exp4.vhf sub00/vhpl11 1488432913
+AR mux4ssd behavioral C:/Users/rjuan/Desktop/ISEProjects/mux4SSD.vhd sub00/vhpl07 1488432909
+EN bin2bcd3en NULL C:/Users/rjuan/Desktop/ISEProjects/bin2BCD3en.vhd sub00/vhpl04 1488432906
+AR sel_strobeb behavioral C:/Users/rjuan/Desktop/ISEProjects/sel_strobeB.vhd sub00/vhpl03 1488432905
+AR ssd_1dig behavioral C:/Users/rjuan/Desktop/ISEProjects/SSD_1dig.vhd sub00/vhpl09 1488432911
+EN mux4ssd NULL C:/Users/rjuan/Desktop/ISEProjects/mux4SSD.vhd sub00/vhpl06 1488432908
+AR bin2bcd3en behavioral C:/Users/rjuan/Desktop/ISEProjects/bin2BCD3en.vhd sub00/vhpl05 1488432907
+AR dcm_50m behavioral C:/Users/rjuan/Desktop/ISEProjects/DCM_50M.vhd sub00/vhpl01 1488432903

@@ -1,0 +1,48 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Ringshifter_drc.vhf -w D:/lab7exp7/Ringshifter.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Ringshifter_drc.vhf -w D:/lab7exp7/Ringshifter.sch 
+xst -intstyle ise -ifn "D:/lab7exp7/Ringshifter.xst" -ofn "D:/lab7exp7/Ringshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ringshifter.ucf -p xc3s100e-cp132-4 Ringshifter.ngc Ringshifter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Ringshifter_map.ncd Ringshifter.ngd Ringshifter.pcf 
+par -w -intstyle ise -ol high -t 1 Ringshifter_map.ncd Ringshifter.ncd Ringshifter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ringshifter.twx Ringshifter.ncd -o Ringshifter.twr Ringshifter.pcf -ucf Ringshifter.ucf 
+bitgen -intstyle ise -f Ringshifter.ut Ringshifter.ncd 
+xst -intstyle ise -ifn "D:/lab7exp7/Ringshifter.xst" -ofn "D:/lab7exp7/Ringshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ringshifter.ucf -p xc3s100e-cp132-4 Ringshifter.ngc Ringshifter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Ringshifter_map.ncd Ringshifter.ngd Ringshifter.pcf 
+par -w -intstyle ise -ol high -t 1 Ringshifter_map.ncd Ringshifter.ncd Ringshifter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ringshifter.twx Ringshifter.ncd -o Ringshifter.twr Ringshifter.pcf -ucf Ringshifter.ucf 
+bitgen -intstyle ise -f Ringshifter.ut Ringshifter.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Ringshifter_drc.vhf -w D:/lab7exp7/Ringshifter.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Ringshifter_drc.vhf -w D:/lab7exp7/Ringshifter.sch 
+xst -intstyle ise -ifn "D:/lab7exp7/Ringshifter.xst" -ofn "D:/lab7exp7/Ringshifter.syr" 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Ringshifter_drc.vhf -w D:/lab7exp7/Ringshifter.sch 
+xst -intstyle ise -ifn "D:/lab7exp7/Ringshifter.xst" -ofn "D:/lab7exp7/Ringshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ringshifter.ucf -p xc3s100e-cp132-4 Ringshifter.ngc Ringshifter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Ringshifter_map.ncd Ringshifter.ngd Ringshifter.pcf 
+par -w -intstyle ise -ol high -t 1 Ringshifter_map.ncd Ringshifter.ncd Ringshifter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ringshifter.twx Ringshifter.ncd -o Ringshifter.twr Ringshifter.pcf -ucf Ringshifter.ucf 
+bitgen -intstyle ise -f Ringshifter.ut Ringshifter.ncd 
+xst -intstyle ise -ifn "D:/lab7exp7/Ringshifter.xst" -ofn "D:/lab7exp7/Ringshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ringshifter.ucf -p xc3s100e-cp132-4 Ringshifter.ngc Ringshifter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Ringshifter_map.ncd Ringshifter.ngd Ringshifter.pcf 
+par -w -intstyle ise -ol high -t 1 Ringshifter_map.ncd Ringshifter.ncd Ringshifter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ringshifter.twx Ringshifter.ncd -o Ringshifter.twr Ringshifter.pcf -ucf Ringshifter.ucf 
+bitgen -intstyle ise -f Ringshifter.ut Ringshifter.ncd 
+xst -intstyle ise -ifn "D:/lab7exp7/Ringshifter.xst" -ofn "D:/lab7exp7/Ringshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ringshifter.ucf -p xc3s100e-cp132-4 Ringshifter.ngc Ringshifter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Ringshifter_map.ncd Ringshifter.ngd Ringshifter.pcf 
+par -w -intstyle ise -ol high -t 1 Ringshifter_map.ncd Ringshifter.ncd Ringshifter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ringshifter.twx Ringshifter.ncd -o Ringshifter.twr Ringshifter.pcf -ucf Ringshifter.ucf 
+bitgen -intstyle ise -f Ringshifter.ut Ringshifter.ncd 
+xst -intstyle ise -ifn "D:/lab7exp7/Ringshifter.xst" -ofn "D:/lab7exp7/Ringshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ringshifter.ucf -p xc3s100e-cp132-4 Ringshifter.ngc Ringshifter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Ringshifter_map.ncd Ringshifter.ngd Ringshifter.pcf 
+par -w -intstyle ise -ol high -t 1 Ringshifter_map.ncd Ringshifter.ncd Ringshifter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ringshifter.twx Ringshifter.ncd -o Ringshifter.twr Ringshifter.pcf -ucf Ringshifter.ucf 
+bitgen -intstyle ise -f Ringshifter.ut Ringshifter.ncd 
+xst -intstyle ise -ifn "D:/lab7exp7/Ringshifter.xst" -ofn "D:/lab7exp7/Ringshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ringshifter.ucf -p xc3s100e-cp132-4 Ringshifter.ngc Ringshifter.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Ringshifter_map.ncd Ringshifter.ngd Ringshifter.pcf 
+par -w -intstyle ise -ol high -t 1 Ringshifter_map.ncd Ringshifter.ncd Ringshifter.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ringshifter.twx Ringshifter.ncd -o Ringshifter.twr Ringshifter.pcf -ucf Ringshifter.ucf 
+bitgen -intstyle ise -f Ringshifter.ut Ringshifter.ncd 

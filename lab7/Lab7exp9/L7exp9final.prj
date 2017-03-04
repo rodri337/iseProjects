@@ -1,0 +1,7 @@
+vhdl work "onebitmux.vhf"
+vhdl work "fourbitmux.vhf"
+vhdl work "wrappedFD4CE.vhf"
+vhdl work "eightbitmux.vhf"
+vhdl work "lab7exp9.vhf"
+vhdl work "C:/Users/TinyDancer/Downloads/DCM_50M.vhd"
+vhdl work "L7exp9final.vhf"

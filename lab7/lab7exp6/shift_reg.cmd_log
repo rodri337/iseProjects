@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl shift_reg_drc.vhf -w D:/lab7exp6/shift_reg.sch 
+sch2sym -intstyle ise -family spartan3e -refsym shift_reg D:/lab7exp6/shift_reg.sch D:/lab7exp6/shift_reg.sym 

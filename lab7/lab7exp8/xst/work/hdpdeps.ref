@@ -1,0 +1,12 @@
+V3 10
+FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd 2016/02/25.13:21:40 P.20131013
+EN work/DCM_50M 1457582570 FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_50M/Behavioral 1457582571 \
+      FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd EN work/DCM_50M 1457582570
+FL D:/lab7exp8/Lab7exp8.vhf 2016/03/09.20:02:46 P.20131013
+EN work/Lab7exp8 1457582572 FL D:/lab7exp8/Lab7exp8.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Lab7exp8/BEHAVIORAL 1457582573 \
+      FL D:/lab7exp8/Lab7exp8.vhf EN work/Lab7exp8 1457582572 CP FDRS CP DCM_50M \
+      CP INV

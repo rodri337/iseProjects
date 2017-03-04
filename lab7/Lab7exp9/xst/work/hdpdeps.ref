@@ -1,0 +1,150 @@
+V3 81
+FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd 2016/02/25.14:21:40 P.20131013
+EN work/DCM_50M 1458073422 FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_50M/Behavioral 1458073423 \
+      FL C:/Users/TinyDancer/Downloads/DCM_50M.vhd EN work/DCM_50M 1458073422
+FL D:/Lab7exp9/eightbitmux.vhf 2016/03/15.12:57:16 P.20131013
+EN work/onebitmux_MUSER_eightbitmux 1458073454 FL D:/Lab7exp9/eightbitmux.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/onebitmux_MUSER_eightbitmux/BEHAVIORAL 1458073455 \
+      FL D:/Lab7exp9/eightbitmux.vhf EN work/onebitmux_MUSER_eightbitmux 1458073454 \
+      CP NAND2
+EN work/fourbitmux_MUSER_eightbitmux 1458073456 \
+      FL D:/Lab7exp9/eightbitmux.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fourbitmux_MUSER_eightbitmux/BEHAVIORAL 1458073457 \
+      FL D:/Lab7exp9/eightbitmux.vhf EN work/fourbitmux_MUSER_eightbitmux 1458073456 \
+      CP onebitmux_MUSER_eightbitmux
+EN work/eightbitmux 1458073458 \
+      FL D:/Lab7exp9/eightbitmux.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightbitmux/BEHAVIORAL 1458073459 \
+      FL D:/Lab7exp9/eightbitmux.vhf EN work/eightbitmux 1458073458 \
+      CP fourbitmux_MUSER_eightbitmux
+FL D:/Lab7exp9/fourbitmux.vhf 2016/03/15.12:57:15 P.20131013
+EN work/onebitmux_MUSER_fourbitmux 1458073464 FL D:/Lab7exp9/fourbitmux.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/onebitmux_MUSER_fourbitmux/BEHAVIORAL 1458073465 \
+      FL D:/Lab7exp9/fourbitmux.vhf EN work/onebitmux_MUSER_fourbitmux 1458073464 \
+      CP NAND2
+EN work/fourbitmux 1458073466 FL D:/Lab7exp9/fourbitmux.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/fourbitmux/BEHAVIORAL 1458073467 \
+      FL D:/Lab7exp9/fourbitmux.vhf EN work/fourbitmux 1458073466 \
+      CP onebitmux_MUSER_fourbitmux
+FL D:/Lab7exp9/L7exp9final.vhf 2016/03/15.13:23:38 P.20131013
+EN work/FD4CE_MXILINX_L7exp9final 1458073424 FL D:/Lab7exp9/L7exp9final.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD4CE_MXILINX_L7exp9final/BEHAVIORAL 1458073425 \
+      FL D:/Lab7exp9/L7exp9final.vhf EN work/FD4CE_MXILINX_L7exp9final 1458073424 \
+      CP FDCE
+EN work/wrappedFD4CE_MUSER_L7exp9final 1458073426 \
+      FL D:/Lab7exp9/L7exp9final.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/wrappedFD4CE_MUSER_L7exp9final/BEHAVIORAL 1458073427 \
+      FL D:/Lab7exp9/L7exp9final.vhf EN work/wrappedFD4CE_MUSER_L7exp9final 1458073426 \
+      CP FD4CE_MXILINX_L7exp9final
+EN work/D3_8E_MXILINX_L7exp9final 1458073428 \
+      FL D:/Lab7exp9/L7exp9final.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D3_8E_MXILINX_L7exp9final/BEHAVIORAL 1458073429 \
+      FL D:/Lab7exp9/L7exp9final.vhf EN work/D3_8E_MXILINX_L7exp9final 1458073428 \
+      CP AND4 CP AND4B1 CP AND4B2 CP AND4B3
+EN work/onebitmux_MUSER_L7exp9final 1458073430 \
+      FL D:/Lab7exp9/L7exp9final.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/onebitmux_MUSER_L7exp9final/BEHAVIORAL 1458073431 \
+      FL D:/Lab7exp9/L7exp9final.vhf EN work/onebitmux_MUSER_L7exp9final 1458073430 \
+      CP NAND2
+EN work/fourbitmux_MUSER_L7exp9final 1458073432 \
+      FL D:/Lab7exp9/L7exp9final.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fourbitmux_MUSER_L7exp9final/BEHAVIORAL 1458073433 \
+      FL D:/Lab7exp9/L7exp9final.vhf EN work/fourbitmux_MUSER_L7exp9final 1458073432 \
+      CP onebitmux_MUSER_L7exp9final
+EN work/eightbitmux_MUSER_L7exp9final 1458073434 \
+      FL D:/Lab7exp9/L7exp9final.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightbitmux_MUSER_L7exp9final/BEHAVIORAL 1458073435 \
+      FL D:/Lab7exp9/L7exp9final.vhf EN work/eightbitmux_MUSER_L7exp9final 1458073434 \
+      CP fourbitmux_MUSER_L7exp9final
+EN work/lab7exp9_MUSER_L7exp9final 1458073436 \
+      FL D:/Lab7exp9/L7exp9final.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/lab7exp9_MUSER_L7exp9final/BEHAVIORAL 1458073437 \
+      FL D:/Lab7exp9/L7exp9final.vhf EN work/lab7exp9_MUSER_L7exp9final 1458073436 \
+      CP eightbitmux_MUSER_L7exp9final CP wrappedFD4CE_MUSER_L7exp9final \
+      CP D3_8E_MXILINX_L7exp9final
+EN work/L7exp9final 1458073438 \
+      FL D:/Lab7exp9/L7exp9final.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/L7exp9final/BEHAVIORAL 1458073439 \
+      FL D:/Lab7exp9/L7exp9final.vhf EN work/L7exp9final 1458073438 \
+      CP lab7exp9_MUSER_L7exp9final CP DCM_50M CP PULLDOWN
+FL D:/Lab7exp9/lab7exp9.vhf 2016/03/15.13:23:36 P.20131013
+EN work/FD4CE_MXILINX_lab7exp9 1458073440 FL D:/Lab7exp9/lab7exp9.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD4CE_MXILINX_lab7exp9/BEHAVIORAL 1458073441 \
+      FL D:/Lab7exp9/lab7exp9.vhf EN work/FD4CE_MXILINX_lab7exp9 1458073440 \
+      CP FDCE
+EN work/wrappedFD4CE_MUSER_lab7exp9 1458073442 \
+      FL D:/Lab7exp9/lab7exp9.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/wrappedFD4CE_MUSER_lab7exp9/BEHAVIORAL 1458073443 \
+      FL D:/Lab7exp9/lab7exp9.vhf EN work/wrappedFD4CE_MUSER_lab7exp9 1458073442 \
+      CP FD4CE_MXILINX_lab7exp9
+EN work/D3_8E_MXILINX_lab7exp9 1458073444 \
+      FL D:/Lab7exp9/lab7exp9.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D3_8E_MXILINX_lab7exp9/BEHAVIORAL 1458073445 \
+      FL D:/Lab7exp9/lab7exp9.vhf EN work/D3_8E_MXILINX_lab7exp9 1458073444 \
+      CP AND4 CP AND4B1 CP AND4B2 CP AND4B3
+EN work/onebitmux_MUSER_lab7exp9 1458073446 \
+      FL D:/Lab7exp9/lab7exp9.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/onebitmux_MUSER_lab7exp9/BEHAVIORAL 1458073447 \
+      FL D:/Lab7exp9/lab7exp9.vhf EN work/onebitmux_MUSER_lab7exp9 1458073446 \
+      CP NAND2
+EN work/fourbitmux_MUSER_lab7exp9 1458073448 \
+      FL D:/Lab7exp9/lab7exp9.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/fourbitmux_MUSER_lab7exp9/BEHAVIORAL 1458073449 \
+      FL D:/Lab7exp9/lab7exp9.vhf EN work/fourbitmux_MUSER_lab7exp9 1458073448 \
+      CP onebitmux_MUSER_lab7exp9
+EN work/eightbitmux_MUSER_lab7exp9 1458073450 \
+      FL D:/Lab7exp9/lab7exp9.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/eightbitmux_MUSER_lab7exp9/BEHAVIORAL 1458073451 \
+      FL D:/Lab7exp9/lab7exp9.vhf EN work/eightbitmux_MUSER_lab7exp9 1458073450 \
+      CP fourbitmux_MUSER_lab7exp9
+EN work/lab7exp9 1458073452 \
+      FL D:/Lab7exp9/lab7exp9.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/lab7exp9/BEHAVIORAL 1458073453 \
+      FL D:/Lab7exp9/lab7exp9.vhf EN work/lab7exp9 1458073452 \
+      CP eightbitmux_MUSER_lab7exp9 CP wrappedFD4CE_MUSER_lab7exp9 \
+      CP D3_8E_MXILINX_lab7exp9
+FL D:/Lab7exp9/onebitmux.vhf 2016/03/15.12:57:13 P.20131013
+EN work/onebitmux 1458073468 FL D:/Lab7exp9/onebitmux.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/onebitmux/BEHAVIORAL 1458073469 \
+      FL D:/Lab7exp9/onebitmux.vhf EN work/onebitmux 1458073468 CP NAND2
+FL D:/Lab7exp9/wrappedFD4CE.vhf 2016/03/14.23:19:22 P.20131013
+EN work/FD4CE_MXILINX_wrappedFD4CE 1458073460 FL D:/Lab7exp9/wrappedFD4CE.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD4CE_MXILINX_wrappedFD4CE/BEHAVIORAL 1458073461 \
+      FL D:/Lab7exp9/wrappedFD4CE.vhf EN work/FD4CE_MXILINX_wrappedFD4CE 1458073460 \
+      CP FDCE
+EN work/wrappedFD4CE 1458073462 FL D:/Lab7exp9/wrappedFD4CE.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/wrappedFD4CE/BEHAVIORAL 1458073463 \
+      FL D:/Lab7exp9/wrappedFD4CE.vhf EN work/wrappedFD4CE 1458073462 \
+      CP FD4CE_MXILINX_wrappedFD4CE

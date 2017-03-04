@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Mar 15 12:24:07 2016
+# Process ID: 6828
+# Log file: D:/Lab7exp9/planAhead_run_1/planAhead.log
+# Journal file: D:/Lab7exp9/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -866 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/Lab7exp9/pa.fromNetlist.tcl
+# create_project -name Lab7exp9 -dir "D:/Lab7exp9/planAhead_run_1" -part xc3s100ecp132-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Lab7exp9/L7exp9final.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Lab7exp9} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "L7exp9final.ucf" [current_fileset -constrset]
+Adding file 'D:/Lab7exp9/L7exp9final.ucf' to fileset 'constrs_1'
+# add_files [list {L7exp9final.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design L7exp9final.ngc ...
+WARNING:NetListWriters:298 - No output is written to L7exp9final.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file L7exp9final.edif ...
+ngc2edif: Total memory usage is 74388 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Lab7exp9.data/cache/L7exp9final_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Lab7exp9.data/cache/L7exp9final_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [D:/Lab7exp9/L7exp9final.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'CE' [D:/Lab7exp9/L7exp9final.ucf:3]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'CLR' [D:/Lab7exp9/L7exp9final.ucf:5]
+Finished Parsing UCF File [D:/Lab7exp9/L7exp9final.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 288538bb
+link_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 431.121 ; gain = 48.930
+startgroup
+set_property package_pin P11 [get_ports {D[0]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {D[1]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {D[2]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {D[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  WE]]
+set_property package_pin "" [get_ports [list  CE_R]]
+set_property package_pin "" [get_ports [list  WE]]
+startgroup
+set_property package_pin A7 [get_ports CE_A]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports CE_D]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports CE_R]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports WE]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See D:/Lab7exp9\planAhead_pid6828.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Mar 15 12:26:18 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,16 @@
+AR shift_reg_muser_l7exp6 behavioral D:/lab7exp6/L7exp6.vhf sub00/vhpl11 1458069297
+EN dcm_50m NULL C:/Users/TinyDancer/Downloads/DCM_50M.vhd sub00/vhpl00 1458069286
+EN sel_strobeb NULL C:/Users/TinyDancer/Downloads/sel_strobeB.vhd sub00/vhpl04 1458069290
+EN ssd_1dig NULL C:/Users/TinyDancer/Downloads/SSD_1dig.vhd sub00/vhpl08 1458069294
+AR mux4ssd behavioral C:/Users/TinyDancer/Downloads/mux4SSD.vhd sub00/vhpl07 1458069293
+AR l7exp6 behavioral D:/lab7exp6/L7exp6.vhf sub00/vhpl13 1458069299
+EN bin2bcd3en NULL C:/Users/TinyDancer/Downloads/bin2BCD3en.vhd sub00/vhpl02 1458069288
+EN shift_reg_muser_l7exp6 NULL D:/lab7exp6/L7exp6.vhf sub00/vhpl10 1458069296
+AR sel_strobeb behavioral C:/Users/TinyDancer/Downloads/sel_strobeB.vhd sub00/vhpl05 1458069291
+AR ssd_1dig behavioral C:/Users/TinyDancer/Downloads/SSD_1dig.vhd sub00/vhpl09 1458069295
+EN shift_reg NULL D:/lab7exp6/shift_reg.vhf sub00/vhpl14 1458069300
+EN mux4ssd NULL C:/Users/TinyDancer/Downloads/mux4SSD.vhd sub00/vhpl06 1458069292
+AR shift_reg behavioral D:/lab7exp6/shift_reg.vhf sub00/vhpl15 1458069301
+AR bin2bcd3en behavioral C:/Users/TinyDancer/Downloads/bin2BCD3en.vhd sub00/vhpl03 1458069289
+EN l7exp6 NULL D:/lab7exp6/L7exp6.vhf sub00/vhpl12 1458069298
+AR dcm_50m behavioral C:/Users/TinyDancer/Downloads/DCM_50M.vhd sub00/vhpl01 1458069287

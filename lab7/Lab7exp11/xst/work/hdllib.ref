@@ -1,0 +1,20 @@
+EN dcm_50m NULL C:/Users/TinyDancer/Downloads/DCM_50M.vhd sub00/vhpl02 1463092611
+EN shiftreg_hex2d NULL C:/Users/TinyDancer/Downloads/shiftreg_hex2D.vhd sub00/vhpl16 1463092362
+AR sseg_mux4d behavioral "C:/Users/TinyDancer/Downloads/sseg_mux4D (1).vhd" sub00/vhpl07 1463092616
+EN dmx1_2_1b_muser_l7exp11 NULL D:/Lab7exp11/l7exp11.vhf sub00/vhpl12 1463092621
+EN sseg_mux4d NULL "C:/Users/TinyDancer/Downloads/sseg_mux4D (1).vhd" sub00/vhpl06 1463092615
+EN sel_strobeb NULL C:/Users/TinyDancer/Downloads/sel_strobeB.vhd sub00/vhpl04 1463092613
+AR keycr4b behavioral C:/Users/TinyDancer/Downloads/keyCR4b.vhd sub00/vhpl01 1463092610
+EN dmx1_2_1b NULL D:/Lab7exp11/dmx1_2_1b.vhf sub00/vhpl18 1463092364
+EN shiftreg_hex2d_muser_l7exp11 NULL D:/Lab7exp11/l7exp11.vhf sub00/vhpl10 1463092619
+AR fd4ce_mxilinx_l7exp11 behavioral D:/Lab7exp11/l7exp11.vhf sub00/vhpl09 1463092618
+AR shiftreg_hex2d_muser_l7exp11 behavioral D:/Lab7exp11/l7exp11.vhf sub00/vhpl11 1463092620
+EN fd4ce_mxilinx_l7exp11 NULL D:/Lab7exp11/l7exp11.vhf sub00/vhpl08 1463092617
+EN keycr4b NULL C:/Users/TinyDancer/Downloads/keyCR4b.vhd sub00/vhpl00 1463092609
+AR dmx1_2_1b behavioral D:/Lab7exp11/dmx1_2_1b.vhf sub00/vhpl19 1463092365
+AR sel_strobeb behavioral C:/Users/TinyDancer/Downloads/sel_strobeB.vhd sub00/vhpl05 1463092614
+AR dmx1_2_1b_muser_l7exp11 behavioral D:/Lab7exp11/l7exp11.vhf sub00/vhpl13 1463092622
+AR l7exp11 behavioral D:/Lab7exp11/l7exp11.vhf sub00/vhpl15 1463092361
+AR shiftreg_hex2d behavioral C:/Users/TinyDancer/Downloads/shiftreg_hex2D.vhd sub00/vhpl17 1463092363
+EN l7exp11 NULL D:/Lab7exp11/l7exp11.vhf sub00/vhpl14 1463092623
+AR dcm_50m behavioral C:/Users/TinyDancer/Downloads/DCM_50M.vhd sub00/vhpl03 1463092612

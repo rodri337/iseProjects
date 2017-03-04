@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/TinyDancer/Downloads/keyCR4b.vhd -prj Lab7exp11 -o keyCR4b.spl -module keyCR4b -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e keyCR4b.spl D:/Lab7exp11/keyCR4b.sym 

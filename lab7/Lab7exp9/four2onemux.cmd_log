@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl four2onemux_drc.vhf -w D:/Lab7exp9/four2onemux.sch 
+sch2sym -intstyle ise -family spartan3e -refsym four2onemux D:/Lab7exp9/four2onemux.sch D:/Lab7exp9/four2onemux.sym 

@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/lab7exp5/dff02e_dff02e_sch_tb_isim_beh.exe -prj D:/lab7exp5/dff02e_dff02e_sch_tb_beh.prj work.dff02e_dff02e_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/lab7exp5/dff02e.vhf" into library work
+Parsing VHDL file "C:/Users/TinyDancer/Downloads/dff02eTB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture nand2_v of entity NAND2 [nand2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity dff02e [dff02e_default]
+Compiling architecture behavioral of entity dff02e_dff02e_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable D:/lab7exp5/dff02e_dff02e_sch_tb_isim_beh.exe
+Fuse Memory Usage: 48084 KB
+Fuse CPU Usage: 671 ms

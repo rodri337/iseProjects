@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/TinyDancer/Downloads/sseg_mux4D (1).vhd} -prj Lab7exp11 -o sseg_mux4D.spl -module sseg_mux4D -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sseg_mux4D.spl D:/Lab7exp11/sseg_mux4D.sym 

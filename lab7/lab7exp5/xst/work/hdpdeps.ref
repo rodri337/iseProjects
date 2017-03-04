@@ -1,0 +1,13 @@
+V3 10
+FL C:/Users/TinyDancer/Downloads/dff02eTB.vhd 2016/03/08.14:25:23 P.20131013
+EN work/dff02e_dff02e_sch_tb 0 FL C:/Users/TinyDancer/Downloads/dff02eTB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dff02e_dff02e_sch_tb/behavioral 0 \
+      FL C:/Users/TinyDancer/Downloads/dff02eTB.vhd EN work/dff02e_dff02e_sch_tb 0 \
+      CP dff02e
+FL D:/lab7exp5/lab7exp5.vhf 2016/03/08.15:00:09 P.20131013
+EN work/lab7exp5 1457478012 FL D:/lab7exp5/lab7exp5.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/lab7exp5/BEHAVIORAL 1457478013 \
+      FL D:/lab7exp5/lab7exp5.vhf EN work/lab7exp5 1457478012 CP NAND2 CP INV

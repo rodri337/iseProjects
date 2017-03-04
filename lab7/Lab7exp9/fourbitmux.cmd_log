@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl fourbitmux_drc.vhf -w D:/Lab7exp9/fourbitmux.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl fourbitmux_drc.vhf -w D:/Lab7exp9/fourbitmux.sch 
+sch2sym -intstyle ise -family spartan3e -refsym fourbitmux D:/Lab7exp9/fourbitmux.sch D:/Lab7exp9/fourbitmux.sym 

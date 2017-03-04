@@ -1,0 +1,13 @@
+V3 11
+FL C:/Users/TinyDancer/Downloads/dff01TB.vhd 2016/03/08.14:25:23 P.20131013
+EN work/dff01_dff01_sch_tb 0 FL C:/Users/TinyDancer/Downloads/dff01TB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/dff01_dff01_sch_tb/behavioral 0 \
+      FL C:/Users/TinyDancer/Downloads/dff01TB.vhd EN work/dff01_dff01_sch_tb 0 \
+      CP dff01
+FL D:/lab7exp4/NORdff.vhf 2016/03/08.15:33:35 P.20131013
+EN work/NORdff 1462919659 FL D:/lab7exp4/NORdff.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/NORdff/BEHAVIORAL 1462919660 \
+      FL D:/lab7exp4/NORdff.vhf EN work/NORdff 1462919659 CP NOR2 CP AND2 CP INV

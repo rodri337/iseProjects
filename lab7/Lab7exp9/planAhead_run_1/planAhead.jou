@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Mar 15 12:24:07 2016
+# Process ID: 6828
+# Log file: D:/Lab7exp9/planAhead_run_1/planAhead.log
+# Journal file: D:/Lab7exp9/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Lab7exp9/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P11 [get_ports {D[0]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {D[1]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {D[2]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {D[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  WE]]
+set_property package_pin "" [get_ports [list  CE_R]]
+set_property package_pin "" [get_ports [list  WE]]
+startgroup
+set_property package_pin A7 [get_ports CE_A]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports CE_D]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports CE_R]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports WE]
+endgroup
+save_constraints

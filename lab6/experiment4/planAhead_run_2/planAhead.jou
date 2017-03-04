@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 01 21:46:54 2017
+# Process ID: 9668
+# Log file: C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/rjuan/Desktop/ISEProjects/lab6/experiment4/pa.fromNetlist.tcl
+set_property package_pin "" [get_ports [list  {anO[3]}]]
+set_property package_pin "" [get_ports [list  {anO[2]}]]
+set_property package_pin "" [get_ports [list  {anO[1]}]]
+set_property package_pin "" [get_ports [list  {anO[0]}]]
+startgroup
+set_property package_pin K14 [get_ports {anO[3]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {anO[2]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {anO[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {anO[0]}]
+endgroup
+save_constraints
